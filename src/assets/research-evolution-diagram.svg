@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1000 720" xmlns="http://www.w3.org/2000/svg" font-family="Courier New, Consolas, monospace">
+  <rect x="0" y="0" width="1000" height="720" fill="#111111"/>
+
+  <!-- Title -->
+  <text x="500" y="45" text-anchor="middle" fill="#f2f2f2" font-size="22" letter-spacing="3">RESEARCH EVOLUTION</text>
+  <text x="500" y="75" text-anchor="middle" fill="#9a9a9a" font-size="14">From independent studies toward integrated spatial intelligence</text>
+
+  <!-- Stem from title to top bar -->
+  <line x1="500" y1="90" x2="500" y2="130" stroke="#666666" stroke-width="1.5"/>
+
+  <!-- Top horizontal bar connecting 4 branches -->
+  <line x1="140" y1="130" x2="860" y2="130" stroke="#666666" stroke-width="1.5"/>
+
+  <!-- Vertical ticks up to branch labels -->
+  <line x1="140" y1="110" x2="140" y2="130" stroke="#e07a3f" stroke-width="1.5"/>
+  <line x1="380" y1="110" x2="380" y2="130" stroke="#c98fd6" stroke-width="1.5"/>
+  <line x1="620" y1="110" x2="620" y2="130" stroke="#5fbf6e" stroke-width="1.5"/>
+  <line x1="860" y1="110" x2="860" y2="130" stroke="#4fb8e0" stroke-width="1.5"/>
+
+  <!-- Branch labels row 1 -->
+  <text x="140" y="103" text-anchor="middle" fill="#e07a3f" font-size="16" font-weight="bold">EO</text>
+  <text x="380" y="103" text-anchor="middle" fill="#c98fd6" font-size="16" font-weight="bold">NETWORKS</text>
+  <text x="620" y="103" text-anchor="middle" fill="#5fbf6e" font-size="16" font-weight="bold">STATISTICS</text>
+  <text x="860" y="103" text-anchor="middle" fill="#4fb8e0" font-size="16" font-weight="bold">AI / ML</text>
+
+  <!-- Vertical lines down from top bar to row 2 labels -->
+  <line x1="140" y1="130" x2="140" y2="175" stroke="#e07a3f" stroke-width="1.5"/>
+  <line x1="380" y1="130" x2="380" y2="175" stroke="#c98fd6" stroke-width="1.5"/>
+  <line x1="620" y1="130" x2="620" y2="175" stroke="#5fbf6e" stroke-width="1.5"/>
+  <line x1="860" y1="130" x2="860" y2="175" stroke="#4fb8e0" stroke-width="1.5"/>
+
+  <!-- Row 2: concrete paper anchors, spelled out -->
+  <text x="140" y="198" text-anchor="middle" fill="#e8e8e8" font-size="13">Land Use / Land</text>
+  <text x="140" y="215" text-anchor="middle" fill="#e8e8e8" font-size="13">Cover Detection</text>
+
+  <text x="380" y="198" text-anchor="middle" fill="#e8e8e8" font-size="13">School Accessibility</text>
+  <text x="380" y="215" text-anchor="middle" fill="#e8e8e8" font-size="13">Mapping (Dijkstra)</text>
+
+  <text x="620" y="198" text-anchor="middle" fill="#e8e8e8" font-size="13">SUSENAS / PODES</text>
+  <text x="620" y="215" text-anchor="middle" fill="#e8e8e8" font-size="13">Official Statistics</text>
+
+  <text x="860" y="198" text-anchor="middle" fill="#e8e8e8" font-size="13">KBLI Job Classification</text>
+  <text x="860" y="215" text-anchor="middle" fill="#e8e8e8" font-size="13">(Industrial Sector ML)</text>
+
+  <!-- Lines down from row 2 to bottom convergence bar -->
+  <line x1="140" y1="225" x2="140" y2="255" stroke="#e07a3f" stroke-width="1.5"/>
+  <line x1="380" y1="225" x2="380" y2="255" stroke="#c98fd6" stroke-width="1.5"/>
+  <line x1="620" y1="225" x2="620" y2="255" stroke="#5fbf6e" stroke-width="1.5"/>
+  <line x1="860" y1="225" x2="860" y2="255" stroke="#4fb8e0" stroke-width="1.5"/>
+
+  <!-- Bottom convergence bar -->
+  <line x1="140" y1="255" x2="860" y2="255" stroke="#666666" stroke-width="1.5"/>
+  <line x1="500" y1="255" x2="500" y2="285" stroke="#666666" stroke-width="1.5"/>
+  <polygon points="500,293 494,283 506,283" fill="#666666"/>
+
+  <!-- Convergence sequence -->
+  <text x="500" y="320" text-anchor="middle" fill="#f2f2f2" font-size="15">Multimodal Spatial Data</text>
+  <line x1="500" y1="330" x2="500" y2="358" stroke="#666666" stroke-width="1.5"/>
+  <polygon points="500,366 494,356 506,356" fill="#666666"/>
+
+  <text x="500" y="392" text-anchor="middle" fill="#f2f2f2" font-size="15">Welfare Typology &amp; Regional</text>
+  <text x="500" y="410" text-anchor="middle" fill="#f2f2f2" font-size="15">Studies (Current Research)</text>
+  <line x1="500" y1="420" x2="500" y2="448" stroke="#666666" stroke-width="1.5"/>
+  <polygon points="500,456 494,446 506,446" fill="#666666"/>
+
+  <text x="500" y="482" text-anchor="middle" fill="#f2f2f2" font-size="15">Graph-based Integration</text>
+  <text x="500" y="500" text-anchor="middle" fill="#9a9a9a" font-size="12">(Hierarchical Heterogeneous Spatial Graph)</text>
+  <line x1="500" y1="508" x2="500" y2="536" stroke="#666666" stroke-width="1.5"/>
+  <polygon points="500,544 494,534 506,534" fill="#666666"/>
+
+  <!-- Final box: destination -->
+  <rect x="330" y="558" width="340" height="60" fill="none" stroke="#f2f2f2" stroke-width="1.5"/>
+  <text x="500" y="583" text-anchor="middle" fill="#f2f2f2" font-size="16" font-weight="bold" letter-spacing="1">SPATIAL INTELLIGENCE</text>
+  <text x="500" y="603" text-anchor="middle" fill="#9a9a9a" font-size="12">EO + Statistics, evaluated independently</text>
+
+  <!-- Footer note -->
+  <text x="500" y="660" text-anchor="middle" fill="#6a6a6a" font-size="11">One of four Research Themes. See Research Vision for the full framework.</text>
+</svg>
