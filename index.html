@@ -14,6 +14,22 @@
       rel="stylesheet"
     />
     <title>Terry Devara — Research Portfolio</title>
+    <!-- Restores the real URL after the GitHub Pages 404.html redirect trick
+         (see public/404.html) runs on a direct load of a sub-route. -->
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, "", l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
   </head>
   <body>
     <div id="root"></div>
